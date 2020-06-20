@@ -168,7 +168,7 @@ double amount(int qtdy, double price){
 }
 
 int is_valid_qty(int quantity){
-  if(quantity >= 0){
+  if(quantity > 0){
      return TRUE;
   } else {
     return FALSE;
